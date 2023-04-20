@@ -20,7 +20,6 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
 
-  var today = dayjs();   // The current date
+  var today = dayjs();   // The current date from dayjs
   $('#currentDay').text(today.format('dddd, MMMM D')); // Replace the text of the id currentDay with formatted date
-
 });
