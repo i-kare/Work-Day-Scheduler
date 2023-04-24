@@ -20,96 +20,87 @@
     <p id="currentDay" class="lead"></p>
   </header>
   <section class="container-lg px-5">
-    <!-- Use class for "past", "present", and "future" to apply styles to the
-        time-block divs accordingly. The javascript will need to do this by
-        adding/removing these classes on each div by comparing the hour in the
-        id to the current hour. The html provided below is meant to be an example
-        demonstrating how the css provided can be leveraged to create the
-        desired layout and colors. The html below should be removed or updated
-        in the finished product. Remember to delete this comment once the
-        code is implemented.
-        -->
-
+    
     <!-- 9am on the calendar -->
-    <div id="hour-9" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-9" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">9AM</section>
+      <textarea id="text-9" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-9" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
 
     <!-- 10am on the calendar -->
-    <div id="hour-10" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-10" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">10AM</section>
+      <textarea id="text-10" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-10" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
 
     <!-- 11am on the calendar -->
-    <div id="hour-11" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-11" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">11AM</section>
+      <textarea id="text-11" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-11" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
 
     <!-- 12pm on the calendar -->
-    <div id="hour-12" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">12PM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-12" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">12PM</section>
+      <textarea id="text-12" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-12" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
 
     <!-- 1pm on the calendar -->
-    <div id="hour-13" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">1PM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-13" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">1PM</section>
+      <textarea id="text-13" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-13" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+      </section>
 
     <!-- 2pm on the calendar -->
-    <div id="hour-14" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">2PM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-14" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">2PM</section>
+      <textarea id="text-14" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-14" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
 
     <!-- 3pm on the calendar -->
-    <div id="hour-15" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">3PM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-15" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">3PM</section>
+      <textarea id="text-15" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-15" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
 
     <!-- 4pm on the calendar -->
-    <div id="hour-16" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">4PM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-16" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">4PM</section>
+      <textarea id="text-16" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-16" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
 
     <!-- 5pm on the calendar -->
-    <div id="hour-17" class="row time-block">
-      <div class="col-2 col-md-1 hour text-center py-3">5PM</div>
-      <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+    <section id="hour-17" class="row time-block">
+      <section class="col-2 col-md-1 hour text-center py-3">5PM</section>
+      <textarea id="text-17" class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button id="save-17" class="btn saveBtn col-2 col-md-1" aria-label="save">
         <i class="fas fa-save" aria-hidden="true"></i>
       </button>
-    </div>
+    </section>
   </section>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
