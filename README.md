@@ -9,7 +9,7 @@
 5. WHEN I click the save button for that time block THEN the text for that event is saved in local storage
 6. WHEN I refresh the page THEN the saved events persist 
 ## Deployed Page Url
-
+https://i-kare.github.io/Work-Day-Scheduler/
 
 ## References
 1. https://stackoverflow.com/questions/15083548/convert-12-hour-hhmm-am-pm-to-24-hour-hhmm
