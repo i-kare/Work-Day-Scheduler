@@ -8,6 +8,7 @@
 4. WHEN I click into a time block THEN I can enter an event 
 5. WHEN I click the save button for that time block THEN the text for that event is saved in local storage
 6. WHEN I refresh the page THEN the saved events persist 
+
 ## Deployed Page Url
 https://i-kare.github.io/Work-Day-Scheduler/
 
