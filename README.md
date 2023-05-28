@@ -14,3 +14,6 @@ https://i-kare.github.io/Work-Day-Scheduler/
 
 ## References
 1. https://stackoverflow.com/questions/15083548/convert-12-hour-hhmm-am-pm-to-24-hour-hhmm
+
+## Screenshot of Application
+![Screen Shot 2023-05-28 at 2 36 31 PM](https://github.com/i-kare/Work-Day-Scheduler/assets/119103898/f68de497-c056-4b9e-b219-ccf28d43789e)
